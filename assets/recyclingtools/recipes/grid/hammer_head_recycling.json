@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "C,M",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 50},
+      "M": { "type": "item", "code": "game:helvehammerhead-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:metalbit-{metal}", "quantity": 20 },
+    "name": "Salvage metal from hammer head",
+    "showInCreatedBy": true
+  }
+]

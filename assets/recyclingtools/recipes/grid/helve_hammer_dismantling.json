@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "A,T",
+    "ingredients": {
+      "A": { "type": "item", "code": "game:axe-*" },
+      "T": { "type": "item", "code": "game:helvehammer-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:helvehammerhead-{metal}", "quantity": 1 },
+    "name": "Dismantle tin bronze helve hammer",
+    "showInCreatedBy": true
+  }  
+]
