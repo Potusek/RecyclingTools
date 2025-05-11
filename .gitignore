@@ -1,0 +1,27 @@
+# Skompilowane pliki
+bin/
+obj/
+
+# Pliki użytkownika Visual Studio
+*.user
+*.suo
+.vs/
+
+# Spakowane wersje moda
+*.zip
+
+# Pliki tymczasowe
+*.tmp
+*.bak
+*~
+
+# Logi
+*.log
+
+# Pliki konfiguracyjne IDE
+.idea/
+.vscode/
+
+# System plików
+.DS_Store
+Thumbs.db
