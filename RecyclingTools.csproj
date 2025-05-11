@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <DebugType>embedded</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+        <ExcludeGeneratedDebugSymbol>false</ExcludeGeneratedDebugSymbol>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <OutputType>Library</OutputType>
+        <NoWarn>CS0169;CS0649;CS8632</NoWarn>
+    </PropertyGroup>
+
+    <!-- Dla content moda nie potrzebujemy referencji do API -->
+    
+    <!-- Dołącz podstawowe pliki moda -->
+    <ItemGroup>
+        <None Include="LICENSE;README.md;CHANGELOG.md;modicon.png" CopyToOutputDirectory="PreserveNewest" Pack="true" PackagePath="" Link="%(RecursiveDir)%(Filename)%(Extension)" />
+    </ItemGroup>
+  
+    <!-- Dołącz modinfo.json -->
+    <ItemGroup>
+      <None Include="modinfo.json" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+  
+    <!-- Dołącz assets -->
+    <ItemGroup>
+      <None Include="assets/**">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <!-- Odczytaj wersję z modinfo.json -->
+    <Target Name="ReadModVersion" BeforeTargets="Package">
+      <ReadLinesFromFile File="modinfo.json">
+        <Output TaskParameter="Lines" ItemName="ModInfoContent" />
+      </ReadLinesFromFile>
+      <PropertyGroup>
+        <ModInfoContent>@(ModInfoContent, ' ')</ModInfoContent>
+        <ModVersion>$([System.Text.RegularExpressions.Regex]::Match($(ModInfoContent), '\"version\":\s*\"([^\"]+)\"').Groups[1].Value)</ModVersion>
+      </PropertyGroup>
+      <Message Text="Detected mod version: $(ModVersion)" Importance="high" />
+    </Target>
+  
+    <!-- Spakuj mod do pliku ZIP -->
+    <Target Name="Package" AfterTargets="PostBuildEvent" DependsOnTargets="ReadModVersion">
+      <ZipDirectory DestinationFile="bin/$(TargetName)-v$(ModVersion).zip" SourceDirectory="$(TargetDir)" Overwrite="true" />
+    </Target>
+
+</Project>
