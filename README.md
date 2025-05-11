@@ -26,7 +26,7 @@ A Vintage Story mod that allows recycling of tools by dismantling them into thei
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/YourUsername/recyclingtools/releases) page
+1. Download the latest release from the [Releases](https://github.com/Potusek/recyclingtools/releases) page
 2. Place the ZIP file in your Vintage Story `Mods` folder
 3. Start the game and enjoy!
 
