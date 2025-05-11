@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0] - 2025-01-11
+## [1.0.0] - 2025-05-11
 
 ### Added
 - Initial release of RecyclingTools mod
