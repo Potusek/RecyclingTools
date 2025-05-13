@@ -1,0 +1,86 @@
+[
+  {
+    "ingredientPattern": "H,A,A",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 25},
+      "A": { "type": "item", "code": "game:axe-flint", "isTool": true}
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
+    "name": "Salvage flint chips from axes",
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,S,S",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 25},
+      "S": { "type": "item", "code": "game:shovel-flint", "isTool": true }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
+    "name": "Salvage flint chips from spades",
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,K,K",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 25},
+      "K": { "type": "item", "code": "game:knife-generic-flint", "isTool": true}
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
+    "name": "Salvage flint chips from knives",
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,O,O",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 25},
+      "O": { "type": "item", "code": "game:hoe-flint", "isTool": true }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
+    "name": "Salvage flint chips from hoes",
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,P,P",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 25},
+      "P": { "type": "item", "code": "game:spear-generic-flint", "isTool": true }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
+    "name": "Salvage flint chips from spears",
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,R",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 30},
+      "R": { "type": "item", "code": "game:arrow-flint", "quantity": 12 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
+    "name": "Salvage flint chips from flint arrows",
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,R",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 30},
+      "R": { "type": "item", "code": "game:arrow-crude", "quantity": 12 }
+    },
+    "width": 1,
+    "height": 2,  
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
+    "name": "Salvage flint chips from crude arrows",
+    "showInCreatedBy": true
+  }
+]

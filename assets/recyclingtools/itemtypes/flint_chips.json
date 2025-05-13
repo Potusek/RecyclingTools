@@ -1,0 +1,53 @@
+{
+  "code": "flint_chips",
+  "class": "Item",
+  "maxstacksize": 64,
+  "attributes": {
+    "handbook": {
+      "description": "Small fragments of flint that can be processed into silica dust.",
+      "groupBy": ["salvage", "recycling"],
+      "extraSections": [{
+        "title": "How to obtain",
+        "text": "Use a hammer above flint tools in crafting grid:\n\n• 2 flint axes → 1 flint chip\n• 2 flint shovels → 1 flint chip\n• 2 flint knives → 1 flint chip\n• 2 flint hoes → 1 flint chip\n• 2 flint spears → 1 flint chip\n• 12 flint arrows → 1 flint chip\n\nThe hammer will lose 25-30 durability per use."
+      }]
+    },
+    "createdBy": [{
+      "name": "grid-recipe",
+      "code": "recyclingtools:flint_recycling"
+    }],
+    "displaycaseable": true,
+    "shelvable": true
+  },
+  "texture": { "base": "recyclingtools:item/flint_chips" },
+  "combustibleProps": {
+    "meltingPoint": 1000,
+    "meltingDuration": 13,
+    "smeltedRatio": 1,
+    "requiresContainer": false,
+    "smeltedStack": { "type": "item", "code": "game:calcined-flint", "stacksize": 1 }
+  },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+    "scale": 1
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+    "scale": 1
+  },
+  "tpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+    "scale": 1
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+    "scale": 1
+  }
+}

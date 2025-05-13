@@ -4,6 +4,7 @@ obj/
 
 # Pliki użytkownika Visual Studio
 *.user
+*.sln
 *.suo
 .vs/
 

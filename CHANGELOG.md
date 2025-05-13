@@ -13,6 +13,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Optional stick recovery from dismantling
 - Support for modded metals
 
+## [1.0.2] - 2025-05-13
+
+### Added
+- Flint tool recycling system
+- New item: Flint Chips
+- Hammer-based salvaging of flint tools
+- Recipe to process flint chips into silica dust via popping and grinding
+
+### Recipes Added
+- 2 flint axes/spades/knives/hoes → 1 flint chip
+- 4 flint spears → 1 flint chip  
+- 12 flint arrowheads → 1 flint chip
+- Flint chips can be popped on firepit and ground into silica dust
+
 ## [1.0.1] - 2025-05-11
 
 ### Fixed
