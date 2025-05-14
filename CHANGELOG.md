@@ -13,6 +13,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Optional stick recovery from dismantling
 - Support for modded metals
 
+## [1.1.0] - 2025-05-14
+
+### Added
+- **Flint Tool Recycling System**
+  - New item: Flint Chips - small fragments of flint for recycling
+  - Hammer-based salvaging of flint tools and weapons
+  - Calcining process: flint chips → calcined flint → powder → silica dust
+  
+### Recipes Added
+- 1 flint axe → 3 flint chips
+- 1 flint spade → 3 flint chips  
+- 1 flint knife → 3 flint chips
+- 1 flint hoe → 3 flint chips
+- 1 flint spear → 3 flint chips
+- 2 flint arrows → 1 flint chip
+- 6 flint chips → 1 calcined flint (via smelting)
+
+### Features
+- Support for both regular flint and bone-hafted flint tools
+- Hammer durability cost: 20-30 per salvage operation
+- Flint chips can be processed same as regular flint (popping → grinding)
+- Full handbook documentation for all recipes
+
+### Known Issues
+- Flint chips from damaged tools may not stack properly with those from pristine tools
+- Workaround: Use separate stacks or combine through crafting
+
 ## [1.0.1] - 2025-05-11
 
 ### Fixed

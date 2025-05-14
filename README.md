@@ -24,6 +24,13 @@ A Vintage Story mod that allows recycling of tools by dismantling them into thei
 - Produces: 10 metal bits
 - Consumes 50 durability from the chisel
 
+### Salvaging Flint from Tools
+- Use a hammer above flint tools in the crafting grid
+- 2 axes/spades/knives/hoes → 1 flint chip
+- 4 spears → 1 flint chip
+- 12 arrowheads → 1 flint chip
+- Flint chips can be processed: pop on firepit → grind in quern → silica dust
+
 ## Installation
 
 1. Download the latest release from the [Releases](https://github.com/Potusek/recyclingtools/releases) page
