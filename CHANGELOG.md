@@ -12,6 +12,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Configurable metal bit quantities
 - Optional stick recovery from dismantling
 - Support for modded metals
+- **Container recycling for baskets and other storage items**
+
+## [1.2.0] - 2025-05-14
+
+### Added
+- **Container Recycling System**
+  - Linen sack recycling: knife → 2 flaxtwine, shears → 3 flaxtwine
+  - Hunterbag recycling with material choice: knife → cattailtops, shears → hide pelts
+  - Backpack recycling: recover leather with different efficiency (knife vs shears)
+  - Normal backpack: knife → 3 leather, shears → 5 leather
+  - Sturdy backpack: knife → 4 leather, shears → 6 leather
+
+### Features
+- Shears generally more efficient than knives for container recycling
+- Shapeless crafting for user convenience
+- Approximately 50% material recovery rate with shears
 
 ## [1.1.0] - 2025-05-14
 

@@ -1,0 +1,54 @@
+[
+  {
+    "ingredientPattern": "S,L",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 10},
+      "L": { "type": "item", "code": "game:backpack-normal" }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:leather-normal-plain", "quantity": 5 },
+    "name": "backpack",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "K,L",
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 15},
+      "L": { "type": "item", "code": "game:backpack-normal" }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:leather-normal-plain", "quantity": 3 },
+    "name": "backpack",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "S,L",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 10},
+      "L": { "type": "item", "code": "game:backpack-sturdy" }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 6 },
+    "name": "backpack",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "K,L",
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 15},
+      "L": { "type": "item", "code": "game:backpack-sturdy" }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 4 },
+    "name": "backpack",
+    "shapeless": true,
+    "showInCreatedBy": true
+  }
+]
