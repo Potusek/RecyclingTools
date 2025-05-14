@@ -60,7 +60,7 @@
     "showInCreatedBy": true
   },
   {
-    "ingredientPattern": "H,R,R",
+    "ingredientPattern": "H,R",
     "ingredients": {
       "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10},
       "R": { "type": "item", "code": "game:arrow-flint", "quantity": 2 }
@@ -72,7 +72,7 @@
     "showInCreatedBy": true
   },
   {
-    "ingredientPattern": "H,R,R",
+    "ingredientPattern": "H,R",
     "ingredients": {
       "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10},
       "R": { "type": "item", "code": "game:arrow-crude", "quantity": 2 }
