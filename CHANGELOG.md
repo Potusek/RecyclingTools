@@ -14,6 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support for modded metals
 - **Container recycling for baskets and other storage items**
 
+## [1.2.1] - 2025-05-18
+
+### Added
+- Flint spearhead recycling: 1 flint spearhead → 3 flint chips
+- Flint arrowhead recycling: 2 flint arrowheads → 1 flint chip
+
 ## [1.2.0] - 2025-05-14
 
 ### Added

@@ -82,5 +82,29 @@
     "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
     "name": "Salvage flint chips from crude arrows",
     "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,R",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10},
+      "R": { "type": "item", "code": "game:arrowhead-flint", "quantity": 2 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 1 },
+    "name": "Salvage flint chips from arrowheads",
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,S",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10},
+      "S": { "type": "item", "code": "game:spearhead-flint", "quantity": 1 }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "recyclingtools:flint_chips", "quantity": 3 },
+    "name": "Salvage flint chips from spearheads",
+    "showInCreatedBy": true
   }
 ]
