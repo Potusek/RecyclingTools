@@ -1,0 +1,170 @@
+[
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 1 },
+      "N": {"type": "item", "code": "game:arrow-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:arrowhead-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle axe to recover blade",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "H,N",
+    "ingredients": {
+      "H": {"type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:axe-felling-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:axehead-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle axe to recover blade",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:blade-falx-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:bladehead-falx-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle falx to recover blade",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,T",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*" },
+      "T": {"type": "item", "code": "game:hammer-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:hammerhead-{metal}", "quantity": 1 },
+    "name": "Dismantle tin hammer",
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,T",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*" },
+      "T": {"type": "item", "code": "game:helvehammer-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:helvehammerhead-{metal}", "quantity": 1 },
+    "name": "Dismantle helve hammer to recover hammerhead",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:knife-generic-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:knifeblade-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle knife to recover blade",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:hoe-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:hoehead-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle hoe to recover hoehead",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:pickaxe-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:pickaxehead-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle pickaxe to recover pickaxehead",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:prospectingpick-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:prospectingpickhead-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle prospectingpick to recover prospectingpickhead",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:saw-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:sawblade-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle saw to recover blade",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:scythe-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:scythehead-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle scythe to recover scythehead",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:shovel-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:shovelhead-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle shovel to recover shovelhead",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:blade-blackguard-*", "name": "metal", "allowedVariants": ["iron"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:bladehead-short-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle knife to recover blade",
+    "shapeless": true,
+    "showInCreatedBy": true
+  }
+]

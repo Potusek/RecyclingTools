@@ -1,0 +1,148 @@
+[
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 5,
+        "allowedVariants": [
+          "copper"
+        ]
+      },
+      "B": {
+        "type": "item",
+        "code": "game:helvehammerhead-*",
+        "name": "metal",
+        "allowedVariants": [
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:metalbit-{metal}",
+      "quantity": 19
+    },
+    "name": "Recycle helvehammerhead into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 5,
+        "allowedVariants": [
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze"
+        ]
+      },
+      "B": {
+        "type": "item",
+        "code": "game:helvehammerhead-*",
+        "name": "metal",
+        "allowedVariants": [
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:metalbit-{metal}",
+      "quantity": 19
+    },
+    "name": "Recycle helvehammerhead into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 5,
+        "allowedVariants": [
+          "iron",
+          "meteoriciron"
+        ]
+      },
+      "B": {
+        "type": "item",
+        "code": "game:helvehammerhead-*",
+        "name": "metal",
+        "allowedVariants": [
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:metalbit-{metal}",
+      "quantity": 19
+    },
+    "name": "Recycle helvehammerhead into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 2,
+        "allowedVariants": [
+          "steel"
+        ]
+      },
+      "B": {
+        "type": "item",
+        "code": "game:helvehammerhead-*",
+        "name": "metal",
+        "allowedVariants": [
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:metalbit-{metal}",
+      "quantity": 21
+    },
+    "name": "Recycle helvehammerhead into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  }
+]
