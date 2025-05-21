@@ -1,0 +1,54 @@
+[
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["copper"]},
+      "B": {"type": "item", "code": "game:bladehead-falx-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 4},
+    "name": "Recycle bladehead-falx into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["tinbronze","bismuthbronze","blackbronze"]},
+      "B": {"type": "item", "code": "game:bladehead-falx-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 4},
+    "name": "Recycle bladehead-falx into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["iron","meteoriciron"]},
+      "B": {"type": "item", "code": "game:bladehead-falx-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 4},
+    "name": "Recycle bladehead-falx into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 2, "allowedVariants": ["steel"]},
+      "B": {"type": "item", "code": "game:bladehead-falx-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 5},
+    "name": "Recycle bladehead-falx into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  }
+]

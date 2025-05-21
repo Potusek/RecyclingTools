@@ -8,11 +8,46 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned Features
-- Additional tool recycling recipes (prospecting picks, saws, etc.)
-- Configurable metal bit quantities
-- Optional stick recovery from dismantling
-- Support for modded metals
+- Configurable metal bit quantities via config file
+- Optional stick recovery from dismantling as separate recipes
+- Support for modded metals from other mods
 - **Container recycling for baskets and other storage items**
+- Recipe adaptation based on tool durability (more recovery for less worn tools)
+
+## [1.3.0] - 2025-05-22
+
+### Added
+- **Metal Recovery System**: Comprehensive metal recycling system for tools and tool parts
+  - Two-stage recycling process: First dismantle tools to recover parts, then process parts to recover metal bits
+  - Support for various tools including knives, axes, swords, pickaxes, and more
+  - Material hierarchy respect: Base metal tools can only be processed with equal or higher hardness chisels
+  - Balanced recovery rates: 
+    - Small items (arrowheads): 1-2 metal bits 
+    - Medium items (knife blades, axe heads): 3-5 metal bits
+    - Large items (helve hammer heads): 8-10 metal bits
+    - Very large items (anvil parts): 15-20 metal bits
+  - Steel chisels provide better efficiency with less durability cost and more recovered material
+
+### Features
+- Appropriate naming and labels for all recycling recipes
+- Consistent recipe format for easy mod maintenance and expansion
+- Economic balance to ensure recycling remains valuable but not exploitable
+- Integration with xSkills mod forging mechanics 
+- Durability transfer from tools to recovered parts
+
+### Technical
+- Organized recipe structure in JSON files
+- Consistent use of tool durability costs based on metal hardness
+- Standardized metal type handling for all supported metals
+- Simplified recipe structure for easier maintenance
+
+### Balance
+- Recovery rates adjusted based on original crafting costs
+- Steel chisel bonus for skilled crafters (+1 to +5 metal bits depending on item size)
+- Balanced durability costs for processing tools
+
+### Known Issues
+- Tool dismantling with the same tool type (e.g., axe to axe) can cause conflicts and requires using different tools for dismantling
 
 ## [1.2.1] - 2025-05-18
 
