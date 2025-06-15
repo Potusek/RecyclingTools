@@ -14,6 +14,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Container recycling for baskets and other storage items**
 - Recipe adaptation based on tool durability (more recovery for less worn tools)
 
+## [1.3.1] - 2025-06-15
+
+### Fixed
+- Fixed missing copper variant in hammer dismantling recipe - copper hammers can now be dismantled
+- Added missing spear dismantling recipe to recover spearheads  
+- **Fixed axe disappearing when dismantling hammers and helve hammers** - axes now properly lose durability instead of being consumed
+- All basic metal tools can now be properly dismantled and recycled
+
+### Technical
+- Added missing `isTool: true` and `toolDurabilityCost` properties to hammer dismantling recipes
+- Ensured consistent tool behavior across all dismantling operations
+
 ## [1.3.0] - 2025-05-22
 
 ### Added
