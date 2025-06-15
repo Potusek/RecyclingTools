@@ -41,8 +41,8 @@
   {
     "ingredientPattern": "A,T",
     "ingredients": {
-      "A": {"type": "item", "code": "game:axe-*" },
-      "T": {"type": "item", "code": "game:hammer-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "T": {"type": "item", "code": "game:hammer-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
     },
     "width": 1,
     "height": 2,
@@ -53,7 +53,7 @@
   {
     "ingredientPattern": "A,T",
     "ingredients": {
-      "A": {"type": "item", "code": "game:axe-*" },
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
       "T": {"type": "item", "code": "game:helvehammer-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
     },
     "width": 1,
@@ -164,6 +164,19 @@
     "height": 2,
     "output": {"type": "item", "code": "game:bladehead-short-{metal}", "quantity": 1, "transferDurability": true },
     "name": "Dismantle knife to recover blade",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "A,N",
+    "ingredients": {
+      "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
+      "N": {"type": "item", "code": "game:spear-generic-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:spearhead-{metal}", "quantity": 1, "transferDurability": true },
+    "name": "Dismantle spear to recover spearhead",
     "shapeless": true,
     "showInCreatedBy": true
   }
