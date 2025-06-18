@@ -7,7 +7,7 @@
     },
     "width": 1,
     "height": 2,
-    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 4},
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
     "name": "Recycle cleaver into metal bits",
     "shapeless": true,
     "showInCreatedBy": true
@@ -20,7 +20,7 @@
     },
     "width": 1,
     "height": 2,
-    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 4},
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
     "name": "Recycle cleaver into metal bits",
     "shapeless": true,
     "showInCreatedBy": true
@@ -33,7 +33,7 @@
     },
     "width": 1,
     "height": 2,
-    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 4},
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
     "name": "Recycle cleaver into metal bits",
     "shapeless": true,
     "showInCreatedBy": true
@@ -46,7 +46,7 @@
     },
     "width": 1,
     "height": 2,
-    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 5},
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 8},
     "name": "Recycle cleaver into metal bits",
     "shapeless": true,
     "showInCreatedBy": true
