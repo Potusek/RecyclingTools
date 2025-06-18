@@ -1,0 +1,54 @@
+[
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["copper"]},
+      "B": {"type": "item", "code": "game:shovel-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
+    "name": "Recycle shovel into scrap bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["tinbronze","bismuthbronze","blackbronze"]},
+      "B": {"type": "item", "code": "game:shovel-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
+    "name": "Recycle shovel into scrap bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["iron","meteoriciron"]},
+      "B": {"type": "item","code": "game:shovel-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
+    "name": "Recycle shovel into scrap bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item","code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 2, "allowedVariants": ["steel"]},
+      "B": {"type": "item", "code": "game:shovel-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 8},
+    "name": "Recycle shovel into scrap bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  }
+]

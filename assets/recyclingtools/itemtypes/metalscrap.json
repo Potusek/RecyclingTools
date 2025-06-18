@@ -1,0 +1,49 @@
+{
+  "code": "metalscrap",
+  "class": "Item",
+  "maxstacksize": 256,
+  "attributes": {
+    "handbook": {
+      "description": "Metal scrap from recycled tools and weapons. Can be processed into metal bits.",
+      "groupBy": ["salvage", "recycling"]
+    },
+    "createdBy": [{
+      "name": "grid-recipe",
+      "code": "recyclingtools:scrap_to_metalbit"
+    }],
+    "displaycaseable": true,
+    "shelvable": true
+  },
+  "variantgroups": [
+    { 
+      "code": "metal", 
+      "states": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+    }
+  ],
+  "shape": { "base": "recyclingtools:item/metalscrap" },
+  "textures": {
+    "texture": { "base": "game:block/metal/ingot/{metal}" }
+  },
+  "creativeinventory": { 
+    "general": ["*"], 
+    "items": ["*"] 
+  },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 176, "y": 132, "z": -21 },
+    "origin": { "x": 0.5, "y": 0.07, "z": 0.5 },
+    "scale": 4.0
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0.2, "z": 0 },
+    "rotation": { "x": 0, "y": 24, "z": 20 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 3.5
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2.0
+  }
+}

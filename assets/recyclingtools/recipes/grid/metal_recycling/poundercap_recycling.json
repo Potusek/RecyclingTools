@@ -1,14 +1,54 @@
 [
   {
-    "ingredientPattern": "C,M",
+    "ingredientPattern": "C,B",
     "ingredients": {
-      "C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 50},
-      "M": { "type": "item", "code": "game:poundercap-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["copper"]},
+      "B": {"type": "item", "code": "game:poundercap-*", "name": "metal", "allowedVariants": ["tinbronze","bismuthbronze","blackbronze"]}
     },
     "width": 1,
     "height": 2,
-    "output": { "type": "item", "code": "game:metalbit-{metal}", "quantity": 10 },
-    "name": "Salvage metal from pounder cap",
+    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 8},
+    "name": "Recycle pounder cap into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["tinbronze","bismuthbronze","blackbronze"]},
+      "B": {"type": "item", "code": "game:poundercap-*", "name": "metal", "allowedVariants": ["tinbronze","bismuthbronze","blackbronze","iron"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 9},
+    "name": "Recycle pounder cap into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["iron","meteoriciron"]},
+      "B": {"type": "item", "code": "game:poundercap-*", "name": "metal", "allowedVariants": ["tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 10},
+    "name": "Recycle pounder cap into metal bits",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "C,B",
+    "ingredients": {
+      "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 2, "allowedVariants": ["steel"]},
+      "B": {"type": "item", "code": "game:poundercap-*", "name": "metal", "allowedVariants": ["tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 11},
+    "name": "Recycle pounder cap into metal bits",
+    "shapeless": true,
     "showInCreatedBy": true
   }
 ]

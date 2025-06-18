@@ -1,3 +1,12 @@
 {
+  "item-metalscrap-copper": "Copper Scrap",
+  "item-metalscrap-tinbronze": "Tin Bronze Scrap",
+  "item-metalscrap-bismuthbronze": "Bismuth Bronze Scrap",
+  "item-metalscrap-blackbronze": "Black Bronze Scrap",
+  "item-metalscrap-iron": "Iron Scrap",
+  "item-metalscrap-meteoriciron": "Meteoric Iron Scrap",
+  "item-metalscrap-steel": "Steel Scrap",
+  "item-metalscrap-silver": "Silver Scrap",
+  "item-metalscrap-gold": "Gold Scrap",
   "item-flint_chips": "Flint Chips"
 }

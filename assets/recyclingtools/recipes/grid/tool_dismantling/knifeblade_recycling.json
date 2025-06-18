@@ -7,10 +7,8 @@
     },
     "width": 1,
     "height": 2,
-    "output": {
-      "type": "item", "code": "game:metalbit-{metal}", "quantity": 4
-    },
-    "name": "Recycle knifeblade into metal bits",
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
+    "name": "Recycle knifeblade into scrap bits",
     "shapeless": true,
     "showInCreatedBy": true
   },
@@ -22,8 +20,8 @@
     },
     "width": 1,
     "height": 2,
-    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 4},
-    "name": "Recycle knifeblade into metal bits",
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
+    "name": "Recycle knifeblade into scrap bits",
     "shapeless": true,
     "showInCreatedBy": true
   },
@@ -35,8 +33,8 @@
     },
     "width": 1,
     "height": 2,
-    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 4},
-    "name": "Recycle knifeblade into metal bits",
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
+    "name": "Recycle knifeblade into scrap bits",
     "shapeless": true,
     "showInCreatedBy": true
   },
@@ -48,8 +46,8 @@
     },
     "width": 1,
     "height": 2,
-    "output": {"type": "item", "code": "game:metalbit-{metal}", "quantity": 5},
-    "name": "Recycle knifeblade into metal bits",
+    "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 8},
+    "name": "Recycle knifeblade into scrap bits",
     "shapeless": true,
     "showInCreatedBy": true
   }

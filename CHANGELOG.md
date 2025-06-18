@@ -14,6 +14,55 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Container recycling for baskets and other storage items**
 - Recipe adaptation based on tool durability (more recovery for less worn tools)
 
+# Changelog Entry for v1.4.0
+
+## [1.4.0] - 2025-06-18
+
+### 🚨 Breaking Changes
+- **Removed tool dismantling exploit**: Tools can no longer be dismantled into parts and reassembled at full durability
+- **Replaced two-stage recycling system**: Direct tool recycling now bypasses intermediate tool parts
+
+### Added
+- **New item: Metal Scrap** - intermediate recycling product for all metal tools
+- **Direct tool recycling system**: Tools are now recycled directly into metal scrap using chisels
+- **Conversion recipe**: 2 metal scraps → 1 metal bit for final processing
+- **Material hierarchy preservation**: Higher-tier chisels provide better efficiency and durability
+
+### Changed
+- **Recycling economics rebalanced**: 
+  - Complete tools yield 50% less metal than processing individual parts would have
+  - Recovery rates now range from 10-25% of original crafting cost (1 ingot = 20 metal bits)
+  - Steel chisels provide +1-2 bonus scrap and consume less durability
+- **Tool recycling philosophy**: Shifted from "repair alternative" to "salvage system"
+- **Recipe organization**: All tool recycling now follows consistent chisel + tool → metal scrap pattern
+
+### Removed
+- **Tool dismantling recipes**: No longer possible to dismantle complete tools into reusable parts
+- **Exploit prevention**: Eliminates the ability to "repair" tools by dismantling and reassembling
+
+### Technical Details
+- Metal scrap uses ingot textures with custom transforms for visual consistency
+- Recipes organized by metal tier compatibility (copper/bronze/iron/steel chisels)
+- Balanced durability costs: 2-6 points per recycling operation depending on chisel quality
+- All recipes support shapeless crafting for user convenience
+
+### Balance Notes
+- **Recovery rates by tool type**:
+  - Arrows: ~22% (cost: 2.2 metal bits from 9 per ingot)
+  - Hammers: ~20% (cost: 20 metal bits, recover 4)
+  - Axes/Pickaxes/Shovels: ~15% (cost: 20 metal bits, recover 3)
+  - Knives/Small tools: ~10% (cost: 20 metal bits, recover 2)
+- Steel chisel efficiency bonus encourages skill progression
+- System designed to make recycling valuable but not exploitable
+
+### Why This Change?
+This update addresses community feedback about an unintended exploit where players could effectively "repair" tools by dismantling them into parts and reassembling at full durability. The new system maintains the core recycling functionality while ensuring it serves its intended purpose as a salvage mechanism rather than a repair alternative.
+
+### Migration Notes
+- Existing tool parts (axeheads, hammerheads, etc.) can still be recycled using the old part-based system
+- No existing saves will be broken, but the dismantling recipes are no longer available
+- Players are encouraged to process any stockpiled damaged tools through the new direct recycling system
+
 ## [1.3.1] - 2025-06-15
 
 ### Fixed
