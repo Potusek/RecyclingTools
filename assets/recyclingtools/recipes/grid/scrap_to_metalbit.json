@@ -1,6 +1,7 @@
 [
   {
     "ingredientPattern": "SS",
+    "recipeGroup": 1313,
     "ingredients": {
       "S": {"type": "item", "code": "recyclingtools:metalscrap-*", "name": "metal", "allowedVariants": ["silver", "gold", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
     },

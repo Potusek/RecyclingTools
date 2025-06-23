@@ -14,7 +14,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Container recycling for baskets and other storage items**
 - Recipe adaptation based on tool durability (more recovery for less worn tools)
 
-# Changelog Entry for v1.4.0
+## [1.4.1] - 2025-06-23
+
+### Added
+- **Stonepath splitting recipes**: Convert full stone paths into slabs using shovels
+  - Premium option: shovel + soil + stonepath → 2 slabs (no material loss)
+  - Budget option: shovel + stonepath → 1 slab (50% material loss)
+- **Recipe grouping system**: All recycling recipes now grouped by tool type for better UI organization
+
+### Improved
+- **Enhanced UI experience**: Recipes are now logically grouped in the crafting interface
+  - Group 1320: Copper chisel recipes
+  - Group 1321: Bronze chisel recipes  
+  - Group 1322: Iron chisel recipes
+  - Group 1323: Steel chisel recipes
+- **Better recipe discoverability**: Players can easily see all available options for each tool type
+- **Cleaner crafting interface**: Reduced clutter by grouping related recipes together
+
+### Technical
+- Added `recipeGroup` properties to all recycling recipes for consistent UI presentation
+- Organized recipes by tool compatibility rather than output type
 
 ## [1.4.0] - 2025-06-18
 

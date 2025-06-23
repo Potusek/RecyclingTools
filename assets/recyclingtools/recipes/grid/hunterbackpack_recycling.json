@@ -1,6 +1,7 @@
 [
   {
     "ingredientPattern": "S,L",
+    "recipeGroup": 1341,
     "ingredients": {
       "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 10},
       "L": { "type": "item", "code": "game:hunterbackpack" }
@@ -14,6 +15,7 @@
   },
   {
     "ingredientPattern": "K,L",
+    "recipeGroup": 1341,
     "ingredients": {
       "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 15},
       "L": { "type": "item", "code": "game:hunterbackpack" }
