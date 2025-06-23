@@ -14,6 +14,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Container recycling for baskets and other storage items**
 - Recipe adaptation based on tool durability (more recovery for less worn tools)
 
+## [1.4.2] - 2025-06-23
+
+### Fixed
+- Fixed incorrect item codes in tool recycling recipes
+- Corrected recipe files to use complete tool names instead of tool parts
+- Fixed recipes for axes, saws, scythes, spears, and knives
+- Ensured all tool recycling recipes load properly without errors
+
+### Technical
+- Renamed recipe files to match actual in-game tool codes
+- Updated from tool parts (axehead, sawblade) to complete tools (axe-felling, saw)
+
 ## [1.4.1] - 2025-06-23
 
 ### Added
