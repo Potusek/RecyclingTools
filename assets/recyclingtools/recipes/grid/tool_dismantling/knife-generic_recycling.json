@@ -4,12 +4,12 @@
     "recipeGroup": 1320,
     "ingredients": {
       "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["copper"]},
-      "B": {"type": "item", "code": "game:axe-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze"]}
+      "B": {"type": "item", "code": "game:knife-generic-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze"]}
     },
     "width": 1,
     "height": 2,
     "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
-    "name": "Recycle axe into scrap bits",
+    "name": "Recycle knife into scrap bits",
     "shapeless": true,
     "showInCreatedBy": true
   },
@@ -18,12 +18,12 @@
     "recipeGroup": 1321,
     "ingredients": {
       "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 6, "allowedVariants": ["tinbronze","bismuthbronze","blackbronze"]},
-      "B": {"type": "item", "code": "game:axe-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron"]}
+      "B": {"type": "item", "code": "game:knife-generic-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron"]}
     },
     "width": 1,
     "height": 2,
     "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
-    "name": "Recycle axe into scrap bits",
+    "name": "Recycle knife into scrap bits",
     "shapeless": true,
     "showInCreatedBy": true
   },
@@ -32,12 +32,12 @@
     "recipeGroup": 1322,
     "ingredients": {
       "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["iron","meteoriciron"]},
-      "B": {"type": "item", "code": "game:axe-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
+      "B": {"type": "item", "code": "game:knife-generic-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
     },
     "width": 1,
     "height": 2,
     "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 6},
-    "name": "Recycle axe into scrap bits",
+    "name": "Recycle knife into scrap bits",
     "shapeless": true,
     "showInCreatedBy": true
   },
@@ -46,12 +46,12 @@
     "recipeGroup": 1323,
     "ingredients": {
       "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 2, "allowedVariants": ["steel"]},
-      "B": {"type": "item", "code": "game:axe-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
+      "B": {"type": "item", "code": "game:knife-generic-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
     },
     "width": 1,
     "height": 2,
     "output": {"type": "item", "code": "recyclingtools:metalscrap-{metal}", "quantity": 8},
-    "name": "Recycle axe into scrap bits",
+    "name": "Recycle knife into scrap bits",
     "shapeless": true,
     "showInCreatedBy": true
   }
