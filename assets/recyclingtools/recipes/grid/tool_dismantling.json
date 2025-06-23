@@ -1,6 +1,7 @@
 [
   {
     "ingredientPattern": "A,T",
+    "recipeGroup": 1313,
     "ingredients": {
       "A": {"type": "item", "code": "game:axe-*", "isTool": true, "toolDurabilityCost": 5 },
       "T": {"type": "item", "code": "game:helvehammer-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }

@@ -1,0 +1,31 @@
+[
+  {
+    "ingredientPattern": "B DS",
+    "recipeGroup": 1313,
+    "ingredients": {
+      "B": {"type": "item", "code": "game:shovel-*", "isTool": true, "toolDurabilityCost": 5},
+      "D": {"type": "block", "code": "game:soil-*", "quantity": 1},
+      "S": { "type": "block", "code": "game:stonepath-free", "quantity": 1}
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "block", "code": "game:stonepathslab-free", "quantity": 2},
+    "name": "Stonepath to slab",
+    "shapeless": true,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 1323,
+    "ingredients": {
+      "B": {"type": "item", "code": "game:shovel-*", "isTool": true, "toolDurabilityCost": 5},
+      "S": { "type": "block", "code": "game:stonepath-free", "quantity": 1}
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "game:stonepathslab-free", "quantity": 1},
+    "name": "Stonepath to slab",
+    "shapeless": true,
+    "showInCreatedBy": true
+  }
+]

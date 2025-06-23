@@ -1,6 +1,7 @@
 [
   {
     "ingredientPattern": "S,L",
+    "recipeGroup": 1340,
     "ingredients": {
       "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 10},
       "L": { "type": "item", "code": "game:backpack-normal" }
@@ -14,6 +15,7 @@
   },
   {
     "ingredientPattern": "K,L",
+    "recipeGroup": 1340,
     "ingredients": {
       "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 15},
       "L": { "type": "item", "code": "game:backpack-normal" }
@@ -27,6 +29,7 @@
   },
   {
     "ingredientPattern": "S,L",
+    "recipeGroup": 1340,
     "ingredients": {
       "S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 10},
       "L": { "type": "item", "code": "game:backpack-sturdy" }
@@ -40,6 +43,7 @@
   },
   {
     "ingredientPattern": "K,L",
+    "recipeGroup": 1340,
     "ingredients": {
       "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 15},
       "L": { "type": "item", "code": "game:backpack-sturdy" }

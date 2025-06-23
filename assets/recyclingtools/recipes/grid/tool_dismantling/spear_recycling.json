@@ -1,6 +1,7 @@
 [
   {
     "ingredientPattern": "C,B",
+    "recipeGroup": 1320,
     "ingredients": {
       "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["copper"]},
       "B": {"type": "item", "code": "game:spear-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze"]}
@@ -16,6 +17,7 @@
   },
   {
     "ingredientPattern": "C,B",
+    "recipeGroup": 1321,
     "ingredients": {
       "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["tinbronze","bismuthbronze","blackbronze"]},
       "B": {"type": "item", "code": "game:spear-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron"]}
@@ -29,6 +31,7 @@
   },
   {
     "ingredientPattern": "C,B",
+    "recipeGroup": 1322,
     "ingredients": {
       "C": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5, "allowedVariants": ["iron","meteoriciron"]},
       "B": {"type": "item","code": "game:spear-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
@@ -42,6 +45,7 @@
   },
   {
     "ingredientPattern": "C,B",
+    "recipeGroup": 1323,
     "ingredients": {
       "C": {"type": "item","code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 2, "allowedVariants": ["steel"]},
       "B": {"type": "item", "code": "game:spear-*", "name": "metal", "allowedVariants": ["silver","gold","copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}
