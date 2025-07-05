@@ -8,7 +8,7 @@
     },
     "width": 1,
     "height": 2,
-    "output": {"type": "item", "code": "game:helvehammerhead-{metal}", "quantity": 3},
+    "output": {"type": "item", "code": "game:helvehammerhead-{metal}", "quantity": 1},
     "name": "Dismantle helve hammer to recover hammerhead",
     "shapeless": true,
     "showInCreatedBy": true

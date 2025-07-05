@@ -15,7 +15,7 @@
     "showInCreatedBy": true
   },
   {
-    "ingredientPattern": "B,S",
+    "ingredientPattern": "BS",
     "recipeGroup": 1323,
     "ingredients": {
       "B": {"type": "item", "code": "game:shovel-*", "isTool": true, "toolDurabilityCost": 5},
@@ -25,7 +25,21 @@
     "height": 2,
     "output": { "type": "block", "code": "game:stonepathslab-free", "quantity": 1},
     "name": "Stonepath to slab",
-    "shapeless": true,
+    "shapeless": false,
+    "showInCreatedBy": true
+  },
+  {
+    "ingredientPattern": "BS",
+    "recipeGroup": 1333,
+    "ingredients": {
+      "B": {"type": "item", "code": "game:shovel-*", "isTool": true, "toolDurabilityCost": 5},
+      "S": { "type": "block", "code": "game:stonepath-free", "quantity": 1}
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "game:stonepathstairs-up-north-free", "quantity": 1},
+    "name": "Stonepath to stair",
+    "shapeless": false,
     "showInCreatedBy": true
   }
 ]
