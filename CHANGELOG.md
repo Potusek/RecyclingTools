@@ -13,6 +13,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Support for modded metals from other mods
 - **Container recycling for baskets and other storage items**
 - Recipe adaptation based on tool durability (more recovery for less worn tools)
+- ~~Enhanced stonepath processing~~ ✅ *Implemented in 1.4.3*
+
+### Recently Completed
+- Enhanced stonepath crafting (stairs creation) - *Added in 1.4.3*
+- Economic balance fixes for tool dismantling - *Fixed in 1.4.3*
+
+## [1.4.3] - 2025-07-05
+
+### Fixed
+- **Economic exploit fix**: Corrected helve hammer dismantling from yielding 3 hammer heads to 1 hammer head
+- **Recipe code fix**: Fixed scythehead recycling recipe using incorrect spearhead code instead of scythehead
+- **Recipe positioning**: Improved stonepath crafting with distinct horizontal/vertical patterns
+
+### Added
+- **Stonepath to stairs**: New crafting option - shovel placed horizontally next to stonepath creates stairs
+- **Enhanced stonepath crafting**: Clear distinction between slab creation (vertical) and stair creation (horizontal)
+
+### Technical
+- Fixed tool_dismantling.json quantity exploit (quantity: 3 → 1)
+- Corrected item codes in scythehead_recycling.json (spearhead-* → scythehead-*)
+- Updated stonepath recipes with proper shapeless settings for position-dependent crafting
 
 ## [1.4.2] - 2025-06-23
 
