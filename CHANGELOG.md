@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enhanced stonepath crafting (stairs creation) - *Added in 1.4.3*
 - Economic balance fixes for tool dismantling - *Fixed in 1.4.3*
 
-## [1.4.4] - 2025-07-06
+## [1.4.4] - 2025-09-11
 
 ### Changed
 - Updated game compatibility to Vintage Story 1.21.0+
