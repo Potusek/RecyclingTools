@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
         <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
@@ -12,8 +12,11 @@
         <DebugSymbols>true</DebugSymbols>
         <ExcludeGeneratedDebugSymbol>false</ExcludeGeneratedDebugSymbol>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-        <OutputType>Library</OutputType>
-        <NoWarn>CS0169;CS0649;CS8632</NoWarn>
+        <!-- <OutputType>Library</OutputType> -->
+        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        <GenerateDependencyFile>false</GenerateDependencyFile>
+        <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
+        <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
     </PropertyGroup>
 
     <!-- Dla content moda nie potrzebujemy referencji do API -->
