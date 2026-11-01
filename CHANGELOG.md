@@ -30,6 +30,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated game compatibility to Vintage Story 1.22.0+
 - Iron and steel spears (new in VS 1.22) are supported by existing spear recycling recipes
 
+### Technical
+- Build project retargeted to .NET 8
+
 ## [1.4.4] - 2025-09-11
 
 ### Changed
