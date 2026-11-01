@@ -3,10 +3,10 @@
   "side": "universal",
   "modid": "recyclingtools",
   "name": "Recycling Tools",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "description": "Allows dismantling and recycling of old tools, starting with helve hammers. Recover metal from outdated equipment!",
   "authors": ["Potusek"],
   "dependencies": {
-    "game": "1.21.0"
+    "game": "1.22.0"
   }
 }
