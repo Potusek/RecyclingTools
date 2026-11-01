@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enhanced stonepath crafting (stairs creation) - *Added in 1.4.3*
 - Economic balance fixes for tool dismantling - *Fixed in 1.4.3*
 
-## [1.5.0] - 2026-11-XX
+## [1.5.0] - 2026-11-01
 
 ### Added
 - Crowbar recycling (all metals) – new tool from VS 1.22
